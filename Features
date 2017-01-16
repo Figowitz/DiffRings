@@ -1,0 +1,30 @@
+DESCRIPTION
+A simple gui program for interpolating a profile plot into rings, as commonly seen in electron diffraction in the TEM. Like an "inverse rotational average". Intended for education.
+
+
+
+FEATURES
+- Import and show profile plots from text files with different formatting (rows, columns, csv files etc.)
+	* Figure out common formats
+- Generate diffraction ring plot from profile
+	* Allow user to control both data and plotting range
+- Export image of rings
+	* Optional scalebar
+	
+
+EXTRA FEATURES
+- Calibration option
+- Brightness/contrast controls
+- Colormap selection (reversed)
+- Simulate various artifacts
+	* Background
+	* Beam stopper
+	* Focus
+	* Noise
+- Batch convert a folder of files
+- Import from excel files
+
+FILES
+image_tools  # Profile to image, Image adjustment, contrast/brightness, colormap, range, scalebar etc
+import_tools  # Stuff for importing and parsing files into proper datatypes. File selector
+data_processing  # Background, 
